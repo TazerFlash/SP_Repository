@@ -1,25 +1,37 @@
-def duplicate(tpl):
-   print("The list of tuple is : ")
-   print(tpl)
+def entertpl(a=[]):
+ n = int(input("Enter number of elements"))
 
-   tpl1 = list(set([i for i in tpl]))
-   print("The list of tuples after removing duplicates is :")
-   print(tpl1)
+ for i in range(n):
+     a.append(input("Enter element:"))
 
-   return tpl1
+ print("The tuple is:")
+ for element in a:
+     print(element)
 
-def sum(tpl):
-    print(sum(tpl1))
+ return n
 
-a = input("Provide a sequence of numbers separated by commas: ")
+def sum(n,a=[]):
+    for x in range(n):
+     while a[x] =! 0:
+         for i in range(size(a)):
+            x=a[i]
+            y=a[i+1]
+            z=x+y
+     print("The sum of the tuple elements is:",z)
+     return z
 
-list = a.split(",")
-tpl = tuple(list)
 
-print(f"\nThis is a printed list of the number values: ")
-print(f"\t{list} ")
-print("\nThis is a printed tuple of the number values: ")
-print(f"\t{tpl} ")
+a=[]
+entertpl(a)
 
-duplicate(tpl)
-sum(tpl)
+a=tuple(a)
+
+result = tuple(set(a))
+for r in result:
+    print(r)
+
+sum(n,a)
+
+
+
+
