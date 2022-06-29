@@ -1,4 +1,4 @@
-This challenge starts with a common encryption idea used, called the XOR. XOR works similar to the XOR gate used in Digital system design. The logic bascailly is that
+This challenge starts with a common encryption idea used, called the XOR. XOR works similar to the XOR gate used in Digital system design. The logic basically is that
 if theres two similar bits, it returns a 0, and when theres two bits thast are different, it returns 1. 
 
 For this challenge, we are provided with a string, and each sharecter of the string is to be xor'd with the integer 13. 
