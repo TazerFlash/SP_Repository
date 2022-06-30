@@ -16,11 +16,9 @@ data = "0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e
 cipher = unhexlify(data)
 print("[-] CIPHER: {}".format(cipher))
 
-# First Step
 key_part = brute(cipher[:7], "crypto{".encode())
 print("[-] PARTIAL KEY FOUND: {}".format(key_part))
 
-# Second Step
 key = (key_part + "y").encode()
 key += key * int((len(cipher) - len(key))/len(key))
 key += key[:((len(cipher) - len(key))%len(key))]
