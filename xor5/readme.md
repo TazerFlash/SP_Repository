@@ -9,6 +9,6 @@ about the unknown xor bytes.
 
 first, we take the dimensions of the image into consideration and then take the rgb bytes.
 
-After using the XORImage() functyion, we get the key.
+After using the XORImage() function, we get the key.
 
 The python code implementation of the same is attached in this directoy under the name: "xor5.py".
