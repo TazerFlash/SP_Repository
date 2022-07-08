@@ -1,4 +1,4 @@
-Thia challenge tells us about a change in the Euclidean algorithm, where the initial integers are multiplied and added with the Euclidean GCD results
+This challenge tells us about a change in the Euclidean algorithm, where the initial integers are multiplied and added with the Euclidean GCD results
 
 The extended Euclidean algorithm is an efficient way to find integers u,v such that
 
