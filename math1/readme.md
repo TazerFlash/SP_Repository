@@ -1,7 +1,8 @@
 This challenge introduces us to one of the basic mathematical concepts used in key encryption, i.e Greatest Common Divisor (GCD)
 or Highet Common Factor (HCF). 
 
-There are various algorithms that can be used in setting the GCD up
+There are various algorithms that can be used in setting the GCD up. I have chosen the Euclidean approach, as mentioned in the 
+challenge notes itself.
 
 It works under the following logic:
 If we subtract a smaller number from a larger (we reduce a larger number), GCD doesn’t change. So if we keep subtracting 
